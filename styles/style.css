@@ -4,17 +4,14 @@ body, html{
     margin: 0;
     padding: 0;
 }
-
-
 :root{
     --headings: 'Limelight', cursive;
     --main-text: 'roboto';
     --main-color: #ffff;
     --headings-color: #ffbbdc;
     --accent-color: #1f2b21;
-
-
 }
+
 /* colors */
 .pink{
     color: var(--headings-color);
@@ -23,7 +20,7 @@ body, html{
     color: black;
  }
  .white{
-color: var(--main-color);
+  color: var(--main-color);
  }
  .green{
     color: var(--accent-color);
@@ -35,7 +32,6 @@ color: var(--main-color);
     height: 70px;
     display: flex;
     justify-content: flex-end;
-
 }
 .navlink{
     color: var(--main-color);
@@ -68,7 +64,6 @@ a{
     font-size: 5rem;
     font-family: var(--headings);
  }
-
  p{
     font-size: 2rem;
     line-height: 70px;
@@ -127,8 +122,7 @@ a{
 .p-text{
     line-height: 45px;
 }
-
-    button{
+ button{
         background-color: var(--headings-color);
         padding: 20px 80px;
         font-family: var(--main-text);
@@ -136,12 +130,158 @@ a{
         border: transparent;
         margin-top: 20px;
         text-transform: uppercase;
-    }  
-
-    img{
+}  
+img{
         width: 70%;
         margin-left: 170px;
-    }
+   }
+
+
+/* menu section */
+.flex-containerr {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid yellow;
+  width: 500px;
+  height: 50vh;
+  margin: 100px;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
+
+.menu-img{
+  width: 100%;
+}
+
+.card-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.card {
+  width: 350px;
+  height: 350px;
+  margin: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+h2{
+  text-align: center;
+  font-family: var(--headings);
+  font-size: 9rem;
+  border-bottom: 20px  #1f2b21 dotted!important ;
+}
+
+.menu{
+text-align: center;
+margin-top: 70px;
+}
+
+.menu-selections{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.menu1, .menu2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu2{
+  margin-left: 30px;
+}
+
+.menu-item-text{
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+h5{
+  font-family: var(--headings);
+  font-size: 25px;
+  margin-left: 20px;
+}
+.pricing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid var(--accent-color);
+  width: 100%;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+/* form */
+h4{
+font-size: 3rem;
+text-align: center;
+color: var(--main-color);
+font-family: var(--headings);
+}
+
+/* contact form styling */
+form{
+width: 50vw;
+margin:0 auto;
+position: relative;
+top: 150px;
+display: block;
+background-color: var(--accent-color);
+padding: 40px;
+}
+form label{
+font-size: 1.5rem;
+color: #ccc;
+}
+input, textarea{
+width: 95%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+border: none;
+font-size: 1rem;
+}
+input[type="text"], input[type="email"], input[type="number"], textarea {
+margin: 15px 0 ;
+height: 2em;
+resize: none;
+}
+input[type="submit"]
+{
+background: var(--headings-color);
+color: var(--main-color);
+border-radius: 50px;
+width: 25%;
+padding: 40px;
+font-size: 2rem;
+font-family: var(--main-text);
+}
 /* Tablet */
 
 @media only screen and  (max-width: 1040px) {
@@ -409,148 +549,3 @@ h3{
    margin-top: 100px;
 }
 
-
-.flex-containerr {
-    display: flex;
-}
-
-.flex-child {
-    flex: 1;
-    border: 2px solid yellow;
-    width: 500px;
-    height: 50vh;
-    margin: 100px;
-}  
-
-.flex-child:first-child {
-    margin-right: 20px;
-} 
-
-.menu-img{
-    width: 100%;
-}
-
-.card-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 150px;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.card {
-    width: 350px;
-    height: 350px;
-    margin: 16px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-sizing: border-box;
-  }
-  h2{
-    text-align: center;
-    font-family: var(--headings);
-    font-size: 9rem;
-    border-bottom: 20px  #1f2b21 dotted!important ;
-  }
-
-  .menu{
-text-align: center;
-margin-top: 70px;
-  }
-
-  .menu-selections{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-
-
-  .menu1, .menu2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .menu2{
-    margin-left: 30px;
-  }
-
-  .menu-item-text{
-    font-size: 20px;
-    line-height: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  
-  h5{
-    font-family: var(--headings);
-    font-size: 25px;
-    margin-left: 20px;
-  }
-  .pricing{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 2px solid var(--accent-color);
-    width: 100%;
-  }
-
-  .bold{
-    font-weight: bold;
-  }
-
-  
-  /* form */
- h4{
-  font-size: 3rem;
-  text-align: center;
-  color: var(--main-color);
-  font-family: var(--headings);
- }
-
- /* form styling */
-form{
-  width: 50vw;
-  margin:0 auto;
-  position: relative;
-  top: 150px;
-  display: block;
-  background-color: var(--accent-color);
-  padding: 40px;
-}
-form label{
-font-size: 1.5rem;
-color: #ccc;
-}
-input, textarea{
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border: none;
-  font-size: 1rem;
-}
-input[type="text"], input[type="email"], input[type="number"], textarea {
-  margin: 15px 0 ;
-  height: 2em;
-  resize: none;
-}
-input[type="submit"]
-{
-  background: var(--headings-color);
-  color: var(--main-color);
-  border-radius: 50px;
-  width: 25%;
-  padding: 40px;
-  font-size: 2rem;
-  font-family: var(--main-text);
-}
