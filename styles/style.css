@@ -46,6 +46,7 @@ color: var(--main-color);
 a{
     list-style-type: none;
     text-decoration: none;
+    color: black;
 }
 .left{
     margin-right: auto;
