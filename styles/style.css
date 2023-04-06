@@ -51,9 +51,9 @@ a{
     top:-170px;
 }
  h1{
-    font-size: 12rem;
+    font-size: 10rem;
     position: absolute;
-    bottom: 20px;
+    bottom: -40px;
   left: 16px;
   padding-left: 40px;
   font-family: var(--headings);
@@ -65,7 +65,7 @@ a{
  }
  p{
     font-size: 2rem;
-    line-height: 70px;
+    line-height: 60px;
  }
  ul li{
     text-decoration:none;
