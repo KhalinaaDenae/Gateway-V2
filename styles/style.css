@@ -11,7 +11,6 @@ body, html{
     --headings-color: #ffbbdc;
     --accent-color: #1f2b21;
 }
-
 /* colors */
 .pink{
     color: var(--headings-color);
@@ -94,7 +93,7 @@ a{
     background-size: cover;
     background-image:linear-gradient(rgba(11, 9, 9, 0.334), rgba(19, 17, 17, 0.646)), url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800");
   }
-/* A B O U T    S E C T I O N */
+/* ---------------------- A B O U T    S E C T I O N */
 .about-section{
     background-color: var(--accent-color);
     height: 50vh;
@@ -137,7 +136,7 @@ img{
    }
 
 
-/* menu section */
+/* -------------  M E N U  section */
 .flex-containerr {
   display: flex;
 }
